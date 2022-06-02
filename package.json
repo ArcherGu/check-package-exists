@@ -1,6 +1,6 @@
 {
   "name": "check-package-exists",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Check if the npm package exists",
   "author": "ArcherGu",
   "license": "MIT",
@@ -24,7 +24,8 @@
     "build": "tsup src/index.ts --dts --format cjs,esm --splitting --clean",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "vitest run"
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "execa": "^5.0.0",
