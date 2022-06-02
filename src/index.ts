@@ -8,11 +8,6 @@ const cache: { globalDirs: GlobalPackagesDirs | undefined } = {
 }
 
 export function checkPackageExists(name: string) {
-  if (!cache.globalDirs)
-    cache.globalDirs = getGlobalPackagesDirs()
-
-  const globalDirs = cache.globalDirs
-
   // reference: https://github.com/slidevjs/slidev/blob/main/packages/slidev/node/utils.ts
   try {
     return !!resolve(name, {
@@ -20,6 +15,11 @@ export function checkPackageExists(name: string) {
     })
   }
   catch { }
+
+  if (!cache.globalDirs)
+    cache.globalDirs = getGlobalPackagesDirs()
+
+  const globalDirs = cache.globalDirs
 
   if (isInstalledGlobally(globalDirs)) {
     try {
