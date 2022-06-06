@@ -7,7 +7,15 @@ const cache: { globalDirs: GlobalPackagesDirs | undefined } = {
   globalDirs: undefined,
 }
 
+function addPackageJsonFile(name: string): string {
+  if (name.endsWith('/package.json'))
+    return name
+
+  return path.join(name, 'package.json')
+}
+
 export function checkPackageExists(name: string) {
+  name = addPackageJsonFile(name)
   // reference: https://github.com/slidevjs/slidev/blob/main/packages/slidev/node/utils.ts
   try {
     return !!resolve(name, {
