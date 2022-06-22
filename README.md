@@ -1,4 +1,5 @@
 # ✅ Check Package Exists
+[![npm](https://img.shields.io/npm/v/check-package-exists?style=flat-square)](https://npm.im/check-package-exists) [![npm](https://img.shields.io/npm/dw/check-package-exists?style=flat-square)](https://npm.im/check-package-exists) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ArcherGu/check-package-exists/CI?style=flat-square)](https://github.com/ArcherGu/check-package-exists/actions/workflows/ci.yml)
 
 Check if the npm package exists.
 
