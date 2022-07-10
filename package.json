@@ -1,6 +1,7 @@
 {
   "name": "check-package-exists",
   "version": "0.0.0-development",
+  "packageManager": "pnpm@7.5.0",
   "description": "Check if the npm package exists",
   "author": "ArcherGu",
   "license": "MIT",
@@ -47,7 +48,7 @@
     "pre-commit": "npx lint-staged"
   },
   "lint-staged": {
-    "*.{js,ts,tsx,vue,md}": [
+    "*.{js,ts,tsx,vue,md,json,yml}": [
       "eslint --fix"
     ]
   }
