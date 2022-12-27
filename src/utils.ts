@@ -1,5 +1,5 @@
 import path from 'path'
-import execa from 'execa'
+import { execaSync } from 'execa'
 import globalDirs from 'global-dirs'
 
 export interface GlobalPackagesDirs {
@@ -32,7 +32,7 @@ export function getGlobalPackagesDirs(): GlobalPackagesDirs {
 
   try {
     // TODO: SO SLOW!!!!!
-    const { stdout } = execa.sync('pnpm', ['root', '-g'])
+    const { stdout } = execaSync('pnpm', ['root', '-g'])
     pnpmGlobalDir = stdout.trim()
   }
   catch { }
