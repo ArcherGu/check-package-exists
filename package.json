@@ -22,14 +22,13 @@
     "node": ">=14"
   },
   "scripts": {
-    "build": "tsup src/index.ts --dts --format cjs,esm --splitting --clean",
+    "build": "tsup",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "vitest run",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "execa": "^6.1.0",
     "global-dirs": "^3.0.1",
     "resolve": "^1.22.1"
   },
@@ -38,6 +37,7 @@
     "@types/node": "18.11.18",
     "@types/resolve": "1.20.2",
     "eslint": "8.31.0",
+    "execa": "^6.1.0",
     "lint-staged": "13.1.0",
     "simple-git-hooks": "2.8.1",
     "tsup": "6.5.0",
