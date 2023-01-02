@@ -1,5 +1,5 @@
 import path from 'path'
-import { execaSync } from 'execa'
+import { execaSync } from '@esm2cjs/execa'
 import globalDirs from 'global-dirs'
 
 export interface GlobalPackagesDirs {

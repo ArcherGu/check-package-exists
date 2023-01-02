@@ -1,11 +1,11 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@esm2cjs/execa': 6.1.1-cjs.1
   '@lightwing/eslint-config': 0.0.9
   '@types/node': 18.11.18
   '@types/resolve': 1.20.2
   eslint: 8.31.0
-  execa: ^6.1.0
   global-dirs: ^3.0.1
   lint-staged: 13.1.0
   resolve: ^1.22.1
@@ -15,6 +15,7 @@ specifiers:
   vitest: 0.26.3
 
 dependencies:
+  '@esm2cjs/execa': 6.1.1-cjs.1
   global-dirs: 3.0.1
   resolve: 1.22.1
 
@@ -23,7 +24,6 @@ devDependencies:
   '@types/node': 18.11.18
   '@types/resolve': 1.20.2
   eslint: 8.31.0
-  execa: 6.1.0
   lint-staged: 13.1.0
   simple-git-hooks: 2.8.1
   tsup: 6.5.0_typescript@4.9.4
@@ -186,6 +186,60 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@esm2cjs/execa/6.1.1-cjs.1:
+    resolution: {integrity: sha512-FHxfnmuDIjY1VS/BLzDkL8EkbcFvi8s6x1nYQ1Nyu0An0n88EJcGhDBcRWLFwt3C3nT7xwI+MwHRH1TZcAFW2w==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    dependencies:
+      '@esm2cjs/human-signals': 3.0.1
+      '@esm2cjs/is-stream': 3.0.0
+      '@esm2cjs/npm-run-path': 5.1.1-cjs.0
+      '@esm2cjs/onetime': 6.0.1-cjs.0
+      '@esm2cjs/strip-final-newline': 3.0.1-cjs.0
+      cross-spawn: 7.0.3
+      get-stream: 6.0.1
+      merge-stream: 2.0.0
+      signal-exit: 3.0.7
+    dev: false
+
+  /@esm2cjs/human-signals/3.0.1:
+    resolution: {integrity: sha512-QZme4eF/PwTpeSbMB4AaWGQ4VSygzE30jI+Oas1NPTtZQAgcHwWVDOQpIW8FUmtzn5Q+2cS7AjnTzbtqtc5P6g==}
+    engines: {node: '>=12.20.0'}
+    dev: false
+
+  /@esm2cjs/is-stream/3.0.0:
+    resolution: {integrity: sha512-qcBscHlJpZFOD5nnmMHkzOrq2xyvsp9fbVreQLS8x2LOs8N3CrNi3fqvFY0GVJR+YSOHscwhG9T5t4Ck7R7QGw==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    dev: false
+
+  /@esm2cjs/mimic-fn/4.0.0:
+    resolution: {integrity: sha512-LIIAjcpjLr4rcbYmRQ+eRu55Upy/MMB78seIlwqbnyiA+cTa1/pxWnJ1NHJQrw6tx2wMQmlYoJj+wf16NjWH6Q==}
+    engines: {node: '>=12'}
+    dev: false
+
+  /@esm2cjs/npm-run-path/5.1.1-cjs.0:
+    resolution: {integrity: sha512-CWeAIyE8iNSCgP2ItPE8iPgS+lACqgH+MuFRaWOIl2T7hnHqPFfhAJJ/LcLJJ/RMIxNMeenjFMwc91HW7NWr1A==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    dependencies:
+      '@esm2cjs/path-key': 4.0.0
+    dev: false
+
+  /@esm2cjs/onetime/6.0.1-cjs.0:
+    resolution: {integrity: sha512-MkZMZSxrSC/6yUuAw6Azc56XOgwHQQIsNDlO/zgFmOcycJBhRwRuc/gdYUUOFNZIh7y+f0JSIxkNdJPFvJ5W0w==}
+    engines: {node: '>=12'}
+    dependencies:
+      '@esm2cjs/mimic-fn': 4.0.0
+    dev: false
+
+  /@esm2cjs/path-key/4.0.0:
+    resolution: {integrity: sha512-fKzZ3uIIP4j+7WfyG0MEkomGHL0hUXWCx1kY2Zct3GTdl4pyY+3k5lCUxjgdDa2Ld1BCjMNorXnRHiBP6jW6CQ==}
+    engines: {node: '>=12'}
+    dev: false
+
+  /@esm2cjs/strip-final-newline/3.0.1-cjs.0:
+    resolution: {integrity: sha512-o41riCGPiOEStayoikBCAqwa6igbv9L9rP+k5UCfQ24EJD/wGrdDs/KTNwkHG5JzDK3T60D5dMkWkLKEPy8gjA==}
+    engines: {node: '>=12'}
+    dev: false
 
   /@humanwhocodes/config-array/0.11.8:
     resolution: {integrity: sha512-UybHIJzJnR5Qc/MsD9Kr+RpO2h+/P1GhOwdiLPXK5TWk5sgTdu88bTD9UP+CKbPPh5Rni1u0GjAdYQLemG8g+g==}
@@ -755,7 +809,6 @@ packages:
       path-key: 3.1.1
       shebang-command: 2.0.0
       which: 2.0.2
-    dev: true
 
   /cssesc/3.0.0:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
@@ -1654,7 +1707,6 @@ packages:
   /get-stream/6.0.1:
     resolution: {integrity: sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==}
     engines: {node: '>=10'}
-    dev: true
 
   /get-symbol-description/1.0.0:
     resolution: {integrity: sha512-2EmdH1YvIQiZpltCNgkuiUnyukzxM/R6NDJX31Ke3BG1Nq5b0S2PhX59UKi9vZpPDQVdqn+1IcaAwnzTT5vCjw==}
@@ -1992,7 +2044,6 @@ packages:
 
   /isexe/2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
-    dev: true
 
   /joycon/3.1.1:
     resolution: {integrity: sha512-34wB/Y7MW7bzjKRjUKTa46I2Z7eV62Rkhva+KkopW7Qvv/OSWBqvkSY7vusOPrNuZcUG3tApvdVgNB8POj3SPw==}
@@ -2202,7 +2253,6 @@ packages:
 
   /merge-stream/2.0.0:
     resolution: {integrity: sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==}
-    dev: true
 
   /merge2/1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
@@ -2494,7 +2544,6 @@ packages:
   /path-key/3.1.1:
     resolution: {integrity: sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==}
     engines: {node: '>=8'}
-    dev: true
 
   /path-key/4.0.0:
     resolution: {integrity: sha512-haREypq7xkM7ErfgIyA0z+Bj4AGKlMSdlQE2jvJo6huWD1EdkKYV+G/T4nq0YEF2vgTT8kqMFKo1uHn950r4SQ==}
@@ -2755,12 +2804,10 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       shebang-regex: 3.0.0
-    dev: true
 
   /shebang-regex/3.0.0:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
-    dev: true
 
   /side-channel/1.0.4:
     resolution: {integrity: sha512-q5XPytqFEIKHkGdiMIrY10mvLRvnQh42/+GoBlFW3b2LXLE2xxJpZFdm94we0BaoV3RwJyGqg5wS7epxTv0Zvw==}
@@ -2772,7 +2819,6 @@ packages:
 
   /signal-exit/3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
-    dev: true
 
   /simple-git-hooks/2.8.1:
     resolution: {integrity: sha512-DYpcVR1AGtSfFUNzlBdHrQGPsOhuuEJ/FkmPOOlFysP60AHd3nsEpkGq/QEOdtUyT1Qhk7w9oLmFoMG+75BDog==}
@@ -3305,7 +3351,6 @@ packages:
     hasBin: true
     dependencies:
       isexe: 2.0.0
-    dev: true
 
   /word-wrap/1.2.3:
     resolution: {integrity: sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==}
