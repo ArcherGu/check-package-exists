@@ -20,8 +20,8 @@ devDependencies:
     specifier: 0.0.18
     version: 0.0.18(eslint@8.45.0)(typescript@5.1.6)
   '@types/node':
-    specifier: 18.16.19
-    version: 18.16.19
+    specifier: 18.16.20
+    version: 18.16.20
   '@types/resolve':
     specifier: 1.20.2
     version: 1.20.2
@@ -567,8 +567,8 @@ packages:
       '@types/unist': 2.0.6
     dev: true
 
-  /@types/node@18.16.19:
-    resolution: {integrity: sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==}
+  /@types/node@18.16.20:
+    resolution: {integrity: sha512-nL54VfDjThdP2UXJXZao5wp76CDiDw4zSRO8d4Tk7UgDqNKGKVEQB0/t3ti63NS+YNNkIQDvwEAF04BO+WYu7Q==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -3379,7 +3379,7 @@ packages:
     dependencies:
       '@types/chai': 4.3.5
       '@types/chai-subset': 1.3.3
-      '@types/node': 18.16.19
+      '@types/node': 18.16.20
       '@vitest/expect': 0.33.0
       '@vitest/runner': 0.33.0
       '@vitest/snapshot': 0.33.0
@@ -3422,7 +3422,7 @@ packages:
       espree: 9.6.0
       esquery: 1.5.0
       lodash: 4.17.21
-      semver: 7.5.1
+      semver: 7.5.4
     transitivePeerDependencies:
       - supports-color
     dev: true
