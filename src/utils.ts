@@ -1,4 +1,4 @@
-import path from 'path'
+import path from 'node:path'
 import { execaSync } from '@esm2cjs/execa'
 import globalDirs from 'global-dirs'
 

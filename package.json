@@ -31,7 +31,7 @@
   "dependencies": {
     "@esm2cjs/execa": "6.1.1-cjs.1",
     "global-dirs": "^3.0.1",
-    "resolve": "^1.22.2"
+    "resolve": "^1.22.8"
   },
   "devDependencies": {
     "@lightwing/eslint-config": "1.0.1",

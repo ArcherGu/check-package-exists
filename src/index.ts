@@ -1,4 +1,4 @@
-import path from 'path'
+import path from 'node:path'
 import { sync as resolve } from 'resolve'
 import type { GlobalPackagesDirs } from './utils'
 import { getGlobalPackagesDirs, isInstalledGlobally } from './utils'
