@@ -23,8 +23,8 @@ devDependencies:
     specifier: 20.8.10
     version: 20.8.10
   '@types/resolve':
-    specifier: 1.20.4
-    version: 1.20.4
+    specifier: 1.20.5
+    version: 1.20.5
   eslint:
     specifier: 8.53.0
     version: 8.53.0
@@ -593,8 +593,8 @@ packages:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
     dev: true
 
-  /@types/resolve@1.20.4:
-    resolution: {integrity: sha512-BKGK0T1VgB1zD+PwQR4RRf0ais3NyvH1qjLUrHI5SEiccYaJrhLstLuoXFWJ+2Op9whGizSPUMGPJY/Qtb/A2w==}
+  /@types/resolve@1.20.5:
+    resolution: {integrity: sha512-aten5YPFp8G+cMpkTK5MCcUW5GlwZUby+qlt0/3oFgOCooFgzqvZQ9/0tROY49sUYmhEybBBj3jwpkQ/R3rjjw==}
     dev: true
 
   /@types/semver@7.5.0:
