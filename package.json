@@ -37,7 +37,7 @@
     "@lightwing/eslint-config": "1.0.6",
     "@types/node": "20.9.1",
     "@types/resolve": "1.20.5",
-    "eslint": "8.53.0",
+    "eslint": "8.54.0",
     "lint-staged": "15.1.0",
     "simple-git-hooks": "2.9.0",
     "tsup": "7.3.0",
