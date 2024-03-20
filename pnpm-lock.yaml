@@ -9,8 +9,8 @@ dependencies:
     specifier: 6.1.1-cjs.1
     version: 6.1.1-cjs.1
   global-dirs:
-    specifier: ^3.0.1
-    version: 3.0.1
+    specifier: ^4.0.0
+    version: 4.0.0
   resolve:
     specifier: ^1.22.8
     version: 1.22.8
@@ -2248,9 +2248,10 @@ packages:
       path-is-absolute: 1.0.1
     dev: true
 
-  /global-dirs@3.0.1:
-    resolution: {integrity: sha512-NBcGGFbBA9s1VzD41QXDG+3++t9Mn5t1FpLdhESY6oKY4gYTFpX4wO3sqGUa0Srjtbfj3szX0RnemmrVRUdULA==}
+  /global-dirs@4.0.0:
+    resolution: {integrity: sha512-PJ0OjGf/kVuu9gh5IPgAyssfJne5PsU9+ICxfWiRYDUnYq8ob+Y2nSWAEUNEHRj+gowyzI+wg5/nWkvcjcyLwg==}
     engines: {node: '>=10'}
+    deprecated: Renamed to global-directory
     dependencies:
       ini: 2.0.0
     dev: false
