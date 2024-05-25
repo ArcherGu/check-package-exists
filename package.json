@@ -38,7 +38,7 @@
     "@types/node": "20.12.12",
     "@types/resolve": "1.20.6",
     "eslint": "9.3.0",
-    "lint-staged": "15.2.4",
+    "lint-staged": "15.2.5",
     "simple-git-hooks": "2.11.1",
     "tsup": "8.0.2",
     "typescript": "5.4.5",
