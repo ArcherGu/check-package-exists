@@ -1,6 +1,6 @@
+import type { GlobalPackagesDirs } from './utils'
 import path from 'node:path'
 import { sync as resolve } from 'resolve'
-import type { GlobalPackagesDirs } from './utils'
 import { getGlobalPackagesDirs, isInstalledGlobally } from './utils'
 
 const cache: { globalDirs: GlobalPackagesDirs | undefined } = {
