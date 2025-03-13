@@ -34,7 +34,7 @@
     "resolve": "^1.22.10"
   },
   "devDependencies": {
-    "@lightwing/eslint-config": "1.0.110",
+    "@lightwing/eslint-config": "1.0.111",
     "@types/node": "22.13.10",
     "@types/resolve": "1.20.6",
     "eslint": "9.22.0",
