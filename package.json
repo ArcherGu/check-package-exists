@@ -1,7 +1,7 @@
 {
   "name": "check-package-exists",
   "version": "0.0.0-development",
-  "packageManager": "pnpm@10.18.0",
+  "packageManager": "pnpm@10.18.1",
   "description": "Check if the npm package exists",
   "author": "ArcherGu",
   "license": "MIT",
