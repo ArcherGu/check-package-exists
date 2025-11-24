@@ -8,5 +8,8 @@ export default defineConfig({
   entry: ['src/index.ts'],
   format: ['cjs', 'esm'],
   dts: true,
+  /**
+   * @see https://tsup.egoist.dev/#inject-cjs-and-esm-shims
+   */
   shims: true,
 })
