@@ -6,7 +6,7 @@
   "author": "ArcherGu",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/ArcherGu/check-package-exists.git"
+    "url": "git+https://github.com/ArcherGu/check-package-exists.git"
   },
   "keywords": [
     "npm",
