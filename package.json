@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@lightwing/eslint-config": "1.0.143",
-    "@types/node": "24.10.9",
+    "@types/node": "24.10.10",
     "@types/resolve": "1.20.6",
     "eslint": "9.39.2",
     "lint-staged": "16.2.7",
