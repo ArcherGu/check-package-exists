@@ -15,4 +15,10 @@ export default lightwing(
       'local-data',
     ],
   },
+  {
+    files: ['test/**/*'],
+    rules: {
+      'antfu/no-import-dist': 'off',
+    },
+  },
 )

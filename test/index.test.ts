@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { checkPackageExists } from '../src'
+import { checkPackageExists } from '../dist/index.mjs'
 
 describe('package exists', () => {
   it('should return true when package exists', () => {

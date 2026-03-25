@@ -32,7 +32,7 @@
     "build": "tsdown",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "vitest run",
+    "test": "pnpm build && vitest run",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
