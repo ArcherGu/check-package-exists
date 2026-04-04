@@ -44,7 +44,7 @@
     "@lightwing/eslint-config": "1.0.152",
     "@types/node": "25.5.2",
     "@types/resolve": "1.20.6",
-    "eslint": "10.1.0",
+    "eslint": "10.2.0",
     "lint-staged": "16.4.0",
     "simple-git-hooks": "2.13.1",
     "tsdown": "^0.21.4",
