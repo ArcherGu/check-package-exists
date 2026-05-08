@@ -4,5 +4,5 @@ trustPolicyExclude:
 
 shellEmulator: true
 
-onlyBuiltDependencies:
-  - simple-git-hooks
+allowBuilds:
+  simple-git-hooks: true
