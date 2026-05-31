@@ -37,7 +37,7 @@ importers:
         specifier: 2.13.1
         version: 2.13.1
       tsdown:
-        specifier: ^0.22.0
+        specifier: ^0.22.1
         version: 0.22.1(typescript@6.0.3)
       typescript:
         specifier: 6.0.3
@@ -2830,7 +2830,7 @@ snapshots:
   '@babel/template@7.28.6':
     dependencies:
       '@babel/code-frame': 7.29.0
-      '@babel/parser': 7.29.2
+      '@babel/parser': 7.29.7
       '@babel/types': 7.29.7
 
   '@babel/traverse@7.29.0':
@@ -2838,7 +2838,7 @@ snapshots:
       '@babel/code-frame': 7.29.0
       '@babel/generator': 7.29.7
       '@babel/helper-globals': 7.28.0
-      '@babel/parser': 7.29.2
+      '@babel/parser': 7.29.7
       '@babel/template': 7.28.6
       '@babel/types': 7.29.7
       debug: 4.4.3
