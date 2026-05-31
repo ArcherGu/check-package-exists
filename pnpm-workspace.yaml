@@ -1,8 +1,12 @@
 trustPolicy: no-downgrade
 trustPolicyExclude:
   - semver@6.3.1
+  - tinyexec@1.2.2
 
 shellEmulator: true
 
 allowBuilds:
   simple-git-hooks: true
+
+minimumReleaseAgeExclude:
+  - lint-staged@17.0.6
