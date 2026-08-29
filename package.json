@@ -47,7 +47,7 @@
     "@typescript/native": "npm:typescript@7.0.2",
     "eslint": "10.9.1",
     "lint-staged": "17.0.5",
-    "simple-git-hooks": "2.13.1",
+    "simple-git-hooks": "2.14.0",
     "tsdown": "^0.22.1",
     "typescript": "npm:@typescript/typescript6@6.0.2",
     "vitest": "4.1.11"
