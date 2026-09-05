@@ -45,7 +45,7 @@
     "@types/node": "25.9.5",
     "@types/resolve": "1.20.6",
     "@typescript/native": "npm:typescript@7.0.2",
-    "eslint": "10.9.1",
+    "eslint": "10.10.0",
     "lint-staged": "17.4.1",
     "simple-git-hooks": "2.14.0",
     "tsdown": "^0.23.0",
