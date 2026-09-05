@@ -41,7 +41,7 @@
     "resolve": "^1.22.12"
   },
   "devDependencies": {
-    "@lightwing/eslint-config": "1.0.159",
+    "@lightwing/eslint-config": "1.0.160",
     "@types/node": "25.9.5",
     "@types/resolve": "1.20.6",
     "@typescript/native": "npm:typescript@7.0.2",
