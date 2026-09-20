@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@lightwing/eslint-config": "1.0.160",
-    "@types/node": "25.9.7",
+    "@types/node": "25.9.8",
     "@types/resolve": "1.20.6",
     "@typescript/native": "npm:typescript@7.0.2",
     "eslint": "10.10.0",
