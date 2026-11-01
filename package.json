@@ -38,7 +38,7 @@
   "dependencies": {
     "@esm2cjs/execa": "6.1.1-cjs.1",
     "global-dirs": "^4.0.0",
-    "resolve": "^1.22.12"
+    "resolve": "^1.22.13"
   },
   "devDependencies": {
     "@lightwing/eslint-config": "1.0.160",
@@ -48,7 +48,7 @@
     "eslint": "10.14.0",
     "lint-staged": "17.6.0",
     "simple-git-hooks": "2.14.0",
-    "tsdown": "^0.23.0",
+    "tsdown": "^0.23.4",
     "typescript": "npm:@typescript/typescript6@6.0.2",
     "vitest": "5.0.5"
   },
